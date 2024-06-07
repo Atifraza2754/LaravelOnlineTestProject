@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.start-btn {
+    background-color: #ff7e5f;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.start-btn:hover {
+    background-color: #feb47b;
+}
+
+/* test question page css */
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 56px); /* Adjust height to consider the navbar */
+    margin-top: 56px; /* To avoid overlap with fixed navbar */
+}
+.question-form {
+    width: 100%;
+    max-width: 800px;
+}
+.question-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.question-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+.option-item {
+    font-size: 18px;
+    padding: 15px;
+    cursor: pointer;
+    color: #333;
+}
+.option-item:hover {
+    background-color: #f8f9fa;
+}
+.btn-next {
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-next:hover {
+    background-color: darkblue;
+}
+
+/* Result page css */
+
+    .result-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .result-table {
+        width: 80%;
+        margin-bottom: 30px;
+        background-color: skyblue;
+        font-size: larger;
+        font-weight: bold;
+    }
+    .result-table th, .result-table td {
+        text-align: center;
+        padding: 15px;
+    }
+    .btn-download {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .btn-download:hover {
+        background-color: #0056b3;
+    }
+    .btn-logout {
+        background-color: #dc3545;
+        color: white;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .btn-logout:hover {
+        background-color: #c82333;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
